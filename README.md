@@ -14,7 +14,7 @@ The purpose of the exercise is to evaluate your knowledge about Angular, Node.js
 > Informations/Requeriments:
 - This project use PostegreSQL Database.
 - Necessary create local database named: db_bayer
-- Migrations and Seeders running after start the first time backend application.
+- All migrations and seeders will be performed when run the project for the first time.
 - All JSON Data automatically loaded in tables.
 
 Getting up and running is as easy as 1, 2, 3.
