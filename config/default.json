@@ -1,0 +1,26 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "DVlfdJTqoYhs0szkQnPOdqcy7gE=",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    }
+  },
+  "postgres": "postgres://postgres:postgres@localhost:5432/db_bayer"
+}
